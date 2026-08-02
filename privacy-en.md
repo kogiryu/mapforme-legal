@@ -53,9 +53,11 @@ The kinds of events sent may change as features are added or improved. Even when
 
 ### 3-2. Searching for and importing places
 
-When you search for a place, and when the App fills in the address and coordinates of an imported place, the text you entered or the name of the imported place is sent to the **Google Places API / Geocoding API**. Your display language (Japanese, English, or Korean) is also sent, so that results come back in a language you can read.
+When you search for a place, the text you entered and your display language (Japanese, English, or Korean) are sent to the **Google Places API**. When you then select a suggestion, only the identifier of that suggestion is sent to retrieve its details.
 
-**Your GPS location is not sent.** To favour results in Japan, the App specifies a fixed area covering the country; this is a fixed value and has nothing to do with where you are.
+When the App fills in the address and coordinates of an imported place, the **name and address** of that place are sent to the **Google Geocoding API** (the language is fixed to Japanese for this request).
+
+**Your GPS location is not sent.** Search suggestions are accompanied by a fixed area covering Japan, and address completion by a preference for Japan; both are fixed values and have nothing to do with where you are.
 
 ### 3-3. Purchase information
 
