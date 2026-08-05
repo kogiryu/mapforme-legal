@@ -4,7 +4,7 @@ title: 개인정보 처리방침
 
 # MapForMe 개인정보 처리방침
 
-최종 업데이트: 2026년 8월 2일
+최종 업데이트: 2026년 8월 6일
 
 [日本語](privacy) · [English](privacy-en) · **한국어**
 
@@ -57,6 +57,8 @@ MapForMe(이하 "본 앱")는 이용자의 개인정보를 존중하며, 수집�
 
 가져온 장소의 주소·좌표를 보완하는 기능에서는 **Google Geocoding API**로 그 장소의 **이름과 주소**를 전송합니다(이 요청의 언어 지정은 일본어로 고정되어 있습니다).
 
+보완할 장소의 수가 고정밀 해석의 상한(무료 플랜의 한도)을 넘는 경우, 넘은 만큼은 **OpenStreetMap Foundation**이 운영하는 지명 검색 서비스 **Nominatim**으로 해석합니다. 이때 전송하는 것은 그 장소의 **이름뿐입니다**(주소·좌표는 전송하지 않으며, 언어 지정은 일본어로 고정되어 있습니다). 아울러 Nominatim 이용 정책이 요구하는 앱 식별자(앱 이름과 번들 ID)를 함께 전송합니다.
+
 **GPS로 얻은 현재 위치는 전송하지 않습니다.** 검색 후보에는 일본 전체를 감싸는 고정 범위를, 주소 보완에는 일본을 우선하는 지정을 덧붙이고 있으나, 어느 쪽도 이용자의 위치와 무관한 고정값입니다.
 
 ### 3-3. 구매 정보
@@ -100,6 +102,7 @@ MapForMe(이하 "본 앱")는 이용자의 개인정보를 존중하며, 수집�
 
 - PostHog: <https://posthog.com/privacy>
 - Google(Places API / Geocoding API / Maps SDK): <https://policies.google.com/privacy>
+- OpenStreetMap Foundation(Nominatim): <https://osmfoundation.org/wiki/Privacy_Policy>
 - RevenueCat: <https://www.revenuecat.com/privacy>
 - Apple(App Store / 인앱 구매): <https://www.apple.com/legal/privacy/>
 

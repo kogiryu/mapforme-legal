@@ -4,7 +4,7 @@ title: プライバシーポリシー
 
 # MapForMe プライバシーポリシー
 
-最終更新日: 2026年8月2日
+最終更新日: 2026年8月6日
 
 **日本語** · [English](privacy-en) · [한국어](privacy-ko)
 
@@ -59,6 +59,8 @@ MapForMe（以下「本アプリ」）は、利用者のプライバシーを尊
 
 取り込んだ場所の住所・座標を補完する機能では、**Google Geocoding API** に対して、その場所の**名称と住所**を送信します（こちらの言語指定は日本語で固定です）。
 
+補完する件数が高精度な解決の上限（無料プランの枠）を超えた場合、超えた分は **Nominatim**（**OpenStreetMap Foundation** が運営する地名検索サービス）で解決します。このとき送信するのは、その場所の**名称だけ**です（住所・座標は送信しません。言語指定は日本語で固定です）。あわせて、Nominatim の利用規約が求めるアプリの識別子（アプリ名とバンドル ID）を送信します。
+
 **現在地（GPS の位置情報）は送信しません。** 検索候補には日本全体を囲む固定の範囲を、住所の補完には日本を優先する指定を添えていますが、いずれも利用者の位置とは無関係の固定値です。
 
 ### 3-3. 購入情報
@@ -90,6 +92,7 @@ MapForMe（以下「本アプリ」）は、利用者のプライバシーを尊
 
 - PostHog: <https://posthog.com/privacy>
 - Google（Places API / Geocoding API / Maps SDK）: <https://policies.google.com/privacy>
+- OpenStreetMap Foundation（Nominatim）: <https://osmfoundation.org/wiki/Privacy_Policy>
 - RevenueCat: <https://www.revenuecat.com/privacy>
 - Apple（App Store / アプリ内課金）: <https://www.apple.com/legal/privacy/>
 

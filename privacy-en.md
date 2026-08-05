@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # MapForMe Privacy Policy
 
-Last updated: August 2, 2026
+Last updated: August 6, 2026
 
 [日本語](privacy) · **English** · [한국어](privacy-ko)
 
@@ -57,6 +57,8 @@ When you search for a place, the text you entered and your display language (Jap
 
 When the App fills in the address and coordinates of an imported place, the **name and address** of that place are sent to the **Google Geocoding API** (the language is fixed to Japanese for this request).
 
+If the number of places to fill in exceeds the limit for high-precision resolution (the free plan's allowance), the remainder are resolved using **Nominatim**, the place-name search service operated by the **OpenStreetMap Foundation**. In that case only the **name** of the place is sent (the address and coordinates are not sent; the language is fixed to Japanese). The request also carries an application identifier (the app name and bundle ID), which Nominatim's usage policy requires.
+
 **Your GPS location is not sent.** Search suggestions are accompanied by a fixed area covering Japan, and address completion by a preference for Japan; both are fixed values and have nothing to do with where you are.
 
 ### 3-3. Purchase information
@@ -88,6 +90,7 @@ Please refer to the privacy policies of the external services the App uses:
 
 - PostHog: <https://posthog.com/privacy>
 - Google (Places API / Geocoding API / Maps SDK): <https://policies.google.com/privacy>
+- OpenStreetMap Foundation (Nominatim): <https://osmfoundation.org/wiki/Privacy_Policy>
 - RevenueCat: <https://www.revenuecat.com/privacy>
 - Apple (App Store / in-app purchases): <https://www.apple.com/legal/privacy/>
 
