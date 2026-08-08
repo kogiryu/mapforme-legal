@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # MapForMe Privacy Policy
 
-Last updated: August 6, 2026
+Last updated: August 8, 2026
 
 [日本語](privacy) · **English** · [한국어](privacy-ko)
 
@@ -70,7 +70,9 @@ The App uses **RevenueCat** and **Apple** to manage the status of subscription p
 | Feature | Purpose | Sent outside |
 |---|---|---|
 | Location | Used only when you tap "current location" on the map, to centre the map | **No** (used on the device only) |
-| Photos and camera | Used to choose or take photos to attach to a place | **No** (stored on the device) |
+| Photos and camera | Used to choose or take photos to attach to a place. When you use "save a place from a photo", the App also reads the **location and date recorded in the photo (EXIF)** and uses them as the initial coordinates and visit date for the place | **No** (used on the device only) |
+
+**About reading EXIF**: The App reads only the recorded location (latitude and longitude) and the date the photo was taken. Both are handled entirely on your device and are never sent to, or stored on, the developer's servers. The App does not analyse the image itself, and it does not infer a location from a photo that has none. Simply attaching a photo to a place does not read EXIF.
 
 Even if you deny the location permission, all of the App's main features — showing the map, saving places, and organising them — remain available.
 
