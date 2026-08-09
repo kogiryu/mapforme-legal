@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # MapForMe Privacy Policy
 
-Last updated: August 8, 2026
+Last updated: August 9, 2026
 
 [日本語](privacy) · **English** · [한국어](privacy-ko)
 
@@ -83,8 +83,13 @@ The App **shows no advertising**. It does not use the advertising identifier (ID
 ## 6. Retention and deletion
 
 - Data on your device: erased by deleting the App, or from **Settings → Delete all data**
-- Usage data: turning off **Settings → Send usage data** stops any further sending. If you would like data that has already been sent to be deleted, please contact us at the address below
+- Usage data: turning off **Settings → Send usage data** stops any further sending
 - Purchase history: managed in accordance with the policies of Apple and RevenueCat
+
+**About usage data already sent**: the App does **not attach any identifier that points to you** to usage data. This is by design, so that individuals are not identifiable — but it also means **there is no way to locate one person's records**. Deletion on individual request is therefore not possible. What you can do instead:
+
+- **Stop further sending**: turn off **Settings → Send usage data** (takes effect immediately)
+- **Wait for the retention period**: data already sent is deleted after **1 year**
 
 ## 7. Third-party services
 
