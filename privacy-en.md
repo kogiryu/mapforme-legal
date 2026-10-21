@@ -4,7 +4,7 @@ title: Privacy Policy
 
 # MapForMe Privacy Policy
 
-Last updated: October 18, 2026
+Last updated: October 21, 2026
 
 [日本語](privacy) · **English** · [한국어](privacy-ko)
 
@@ -65,13 +65,22 @@ If the number of places to fill in exceeds the limit for high-precision resoluti
 
 ### 3-3. Purchase information
 
-The App uses **RevenueCat** and **Apple** to manage the status of subscription purchases, renewals, and cancellations. Payment details such as credit card numbers are handled by Apple, and **the developer never receives them**.
+The App uses **RevenueCat**, together with payments through **Apple** (the App Store on iPhone) or **Google** (Google Play on Android), to manage the status of subscription purchases, renewals, and cancellations. Payment details such as credit card numbers are handled by Apple or Google, and **the developer never receives them**.
+
+### 3-4. Map display
+
+To display the map, the App fetches map images (tiles) from an external server. In doing so, **the area being shown (its position and zoom level)**, along with your IP address and device and app information (app name and version, OS type and version), reaches that server.
+
+- iPhone: **Google Maps SDK** (Google)
+- Android: the map tile servers operated by the **OpenStreetMap Foundation**
+
+The content you have saved, such as place names and notes, is not sent. However, because the shown area does reach the server, opening the small map on a place's details, or tapping "current location" to centre the map, fetches the area around it (your GPS location itself is not sent).
 
 ## 4. Use of device features
 
 | Feature | Purpose | Sent outside |
 |---|---|---|
-| Location | Used only when you tap "current location" on the map, to centre the map | **No** (used on the device only) |
+| Location | Used only when you tap "current location" on the map, to centre the map | **No** (used on the device only). However, when the map is centred on your location, that area reaches the map server (see 3-4) |
 | Photos and camera | Used to choose or take photos to attach to a place. When you use "save a place from a photo", the App also reads the **location and date recorded in the photo (EXIF)** and uses them as the initial coordinates and visit date for the place | **No** (used on the device only) |
 
 **About reading EXIF**: The App reads only the recorded location (latitude and longitude) and the date the photo was taken. Both are handled entirely on your device and are never sent to, or stored on, the developer's servers. The App does not analyse the image itself, and it does not infer a location from a photo that has none. Simply attaching a photo to a place does not read EXIF.
@@ -86,7 +95,7 @@ The App **shows no advertising**. It does not use the advertising identifier (ID
 
 - Data on your device: erased by deleting the App, or from **Settings → Delete all data**. Any copy in your device backup is handled according to your device settings and the policies of Apple or Google (see section 2)
 - Usage data: turning off **Settings → Send usage data** stops any further sending
-- Purchase history: managed in accordance with the policies of Apple and RevenueCat
+- Purchase history: managed in accordance with the policies of Apple or Google, and RevenueCat
 
 **About usage data already sent**: the App does **not attach any identifier that points to you** to usage data. This is by design, so that individuals are not identifiable — but it also means **there is no way to locate one person's records**. Deletion on individual request is therefore not possible. What you can do instead:
 
@@ -98,8 +107,8 @@ The App **shows no advertising**. It does not use the advertising identifier (ID
 Please refer to the privacy policies of the external services the App uses:
 
 - PostHog: <https://posthog.com/privacy>
-- Google (Places API / Geocoding API / Maps SDK): <https://policies.google.com/privacy>
-- OpenStreetMap Foundation (Nominatim): <https://osmfoundation.org/wiki/Privacy_Policy>
+- Google (Places API / Geocoding API / Maps SDK / Google Play): <https://policies.google.com/privacy>
+- OpenStreetMap Foundation (Nominatim / map tiles): <https://osmfoundation.org/wiki/Privacy_Policy>
 - RevenueCat: <https://www.revenuecat.com/privacy>
 - Apple (App Store / in-app purchases): <https://www.apple.com/legal/privacy/>
 
